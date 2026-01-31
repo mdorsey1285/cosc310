@@ -12,16 +12,16 @@ public class DataLoader {
      * File I/O is NOT timed in the benchmark.
      */
     public static int[] loadArray(String filename) throws IOException {
-        ArrayList<Integer> temp = new ArrayList<>();
+        ArrayList<Integer> temp = new ArrayList<>(); // temporary array list to hold values
 
-        try (BufferedReader br = new BufferedReader(new FileReader(filename))) {
+        try (BufferedReader br = new BufferedReader(new FileReader(filename))) { // try with resources
             String line;
             while ((line = br.readLine()) != null) {
-                line = line.trim();
+                line = line.trim(); // removes whitespace in the front and back
                 if (line.isEmpty()) {
-                    continue;
+                    continue; // goes back to the beginning of the loop to check
                 }
-                temp.add(Integer.parseInt(line));
+                temp.add(Integer.parseInt(line)); // add the integer to the list
             }
         }
 

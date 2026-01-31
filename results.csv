@@ -1,0 +1,40 @@
+array,random_access,1,5017.60
+array,random_access,2,765.50
+array,random_access,3,837.10
+array,random_access,4,901.50
+array,random_access,5,1495.10
+arraylist, random_access,1,25597.30
+arraylist, random_access,2,13312.90
+arraylist, random_access,3,3970.70
+arraylist, random_access,4,6202.20
+arraylist, random_access,5,2300.80
+array,append,1,4636.20
+array,append,2,1750.30
+array,append,3,2046.60
+array,append,4,5570.00
+array,append,5,5706.50
+arraylist, append,1,14741.90
+arraylist, append,2,4942.40
+arraylist, append,3,12667.60
+arraylist, append,4,3197.20
+arraylist, append,5,7072.20
+array,insert,1,3468.40
+array,insert,2,3346.30
+array,insert,3,3523.00
+array,insert,4,3751.90
+array,insert,5,3383.30
+arraylist, insert,1,4505.00
+arraylist, insert,2,1636.30
+arraylist, insert,3,2111.60
+arraylist, insert,4,2760.80
+arraylist, insert,5,1789.90
+array,remove,1,57742.00
+array,remove,2,959.40
+array,remove,3,736.70
+array,remove,4,673.50
+array,remove,5,722.70
+arraylist, remove,1,5.80
+arraylist, remove,2,0.20
+arraylist, remove,3,0.10
+arraylist, remove,4,0.00
+arraylist, remove,5,0.10
